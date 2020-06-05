@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="nav_bar">
+        <div class="container">
+            <div class="logo">
+                <i>Sport University</i>
+            </div>
+            <div class="link">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="registration.html" class="hov">Registration</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <marquee class="haris">
+        Sport science is the study of how the healthy human body works during exercise, 
+        and how sport and physical activity promotes health – physically, 
+        mentally and socially. The study of sport science calls upon and uses many other
+         academic studies and areas, like physiology, psychology, engineering, chemistry and anatomy.
+    </marquee>
+   <div class="box">
+        <div class="pic_gradient">
+            <h1 class="text">Registration</h1>
+        </div>
+    </div> 
+    <div class="box5">
+        <div class="pic3_gradient">
+            <div class="">
+                <form class="form1" action="submit.html" method="POST">
+                    <label class="haris3">Name</label>
+                    <input type="text" name="username" placeholder="Enter your name" class="namestyle user1"/>
+                    <br/>
+                    <label class="city haris3">Roll No</label>
+                    <input type="text" name="rollno" pattern="[0-9]{2}-[A-z]{4}-[0-9]{3}" placeholder="Enter your roll number" maxlength="8" class="namestyle user2"/>
+                    <br/>
+                    <label class="haris3">Email</label>
+                    <input type="email" name="email" placeholder="Enter your email" class="namestyle user3"/>                    
+                    <br/>
+                    <label class="haris3">Password</label>
+                    <input type="password" name="password" placeholder="Enter your password" maxlength="8" class="namestyle user4"/>
+                    <br/>
+                    <label class="haris3">Gender</label>
+                     <span class="radio"> Male<input type="radio" name="gender"/> Female<input type="radio" name="gender"/></span>
+                    <br/>
+                    <label class="haris3">Selection</label>
+                    <select class="select">
+                        <option>selection...</option>
+                        <option>Indoor Game</option>
+                        <option>Outdoor Game</option>
+                    </select>
+                    <br/>
+                    <label class="haris3">Check Game</label><span class="a6">
+                    <a class="a1">Cricket<input type="checkbox" name="cric" class="cric"/></a><br/><a class="a2">Football<input type="checkbox" name="foot" class="foot"/></a><br/>
+                    <a class="a3">Basketball<input type="checkbox" name="bask" class="bask"/></a><br/><a class="a4">Tennis<input type="checkbox" name="tennis" class="tennis"/></a><br/>
+                    <a class="a5">batminton<input type="checkbox" name="bat" class="bat"/></a></span>
+                    <br/>
+                    <label class="haris3">Department</label>
+                    <select class="select2">
+                        <option value="Select..">Select..</option>
+                        <option value="CS It">CS It</option>
+                        <option value="chemistry">chemistry</option>
+                        <option value="Food science">Food science</option>
+                        <option value="Art">Art</option>
+                        <option value="Social science">Social science</option>
+                    </select>
+                    <br/>
+                    <label class="haris3">Program</label>
+                    <select class="select3">
+                        <option value="Select..">Select..</option>
+                        <option value="CS It">BSCS</option>
+                        <option value="chemistry">BSIT</option>
+                        <option value="Food science">BSES</option>
+                        <option value="Art">BSC</option>
+                        <option value="Social science">BS Biology</option>
+                    </select>
+                    <br/>
+                    <input type="submit" name="submit" class="namestyle pos2" value="Registration"/>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+            <h2 class="style"> Sport University Private Policy 2020</h2>
+    </div>
+</body>
+</html>
